@@ -1,10 +1,42 @@
-<h1>Why I like burgers!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+    The head element is not rendered to the browser. It contains
+    Things like the title of the page, links to scripts and stylesheets,
+    and other metadata
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Love of Burgers</title>
+  </head>
 
-<a href="./pizza.html">Link to Pizza</a>
-<hr />
+  <!-- 
+    The body element contains the rendered portion of the page 
+    Everything inside the body element will be displayed in your browser.
+  -->
+  <body>
+    <h1>Why I like burgers!</h1>
 
-<img src="https://k9uchicago.com/wp-content/uploads/2021/02/Re3PrSj5-1536x864.jpeg.webp" alt="01" width="200">
+    <p>Read About <a href="./pizza.html">Pizza</a> Instead</p>
 
-<p class="my-class"><a id="my-id" class="my-class" href="page2.html">Burgers</a> has always had a special place in my heart. From burgers day in the school
-cafeteria to burgers parties at friends' houses, there was nothing more exciting <a id="my-id" class="my-class" href="page3.html">than opening</a> that
-cardboard to reveal eight delicious slices.</p>
+    <hr />
+    <img src="./images/hamburger.jpeg" alt="01" width="200" />
+
+    <!-- 
+      A given class can be applied to multiple elements. Note that both this `p` tag and
+      its child `a` tag have the class `my-class`
+    -->
+    <p class="my-class">
+      <!-- 
+        An id attribute must be unique within a page. No other element on this page may 
+        have the id `my-id`, because it already exists on this `a` element
+      -->
+      <a id="my-id" class="my-class" href="https://en.wikipedia.org/wiki/Hamburger">Hamburgers</a> have
+      always had a special place in my heart. From burger day in the school cafeteria to burger
+      parties at friends' houses, there was nothing more exciting than opening that cardboard to
+      reveal eight delicious burgers.
+    </p>
+  </body>
+</html>
